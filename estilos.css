@@ -1,0 +1,93 @@
+@charset "UTF-8";
+/* CSS Document */
+
+header {
+	background-repeat: no-repeat;
+	background-image: url("Assets/img/Imagen Catedral Neiva..jpg");
+	background-size: 100%;
+	padding-bottom: 50%;
+	height: 800px;
+	max-width: 100%;
+	width: 100%;
+	
+}
+
+
+img{
+	max-width: 100%;
+	margin: auto;
+	height: auto;
+
+}
+
+
+nav .lista-menu{
+	
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-size: 50px;
+	text-align: center;
+	list-style: none;
+	padding: 0;
+	background: #FF1616;
+	width: 60%;
+	max-width: 11000px;
+	margin: auto;
+	border-radius: 5px;
+}
+
+.lista-menu li a{
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+	display: block;
+}
+
+.lista-menu li{
+	display: inline-block;
+	text-align: center;
+}
+
+.lista-menu li a:hover{
+	background: #A0151F;
+}
+
+
+
+.charter{
+	height: 200px;
+	width: 300px;
+	float:left;
+	margin-left: -400px;
+
+}
+
+
+.mundo, .flecha, .usuario {
+    float: right;
+    height: 90px;
+	width: 80px;
+}
+	
+.flecha{
+	float: right;
+	height: 29px;
+	width: 30px;
+	margin-right: 11px;
+	margin: 20px;
+}
+
+.usuario{
+	float: right;
+	height: 35px;
+	width: 40px;
+	margin-right: 10px;
+	margin: 18px;
+}
+
+.mundo{
+	float: right;
+	height: 35px;
+	width: 40px;
+	margin-right: 10px;
+	margin: 16px;
+}∫s

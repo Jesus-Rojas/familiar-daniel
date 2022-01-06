@@ -1,0 +1,264 @@
+.icono-mundo-nav-bar {
+    width: 28px;
+}
+.icono-nav-bar{
+	width: 30px;
+}
+
+.background-main{
+	background-image: url("../img/Imagen Catedral Neiva..jpg");
+	background-size: cover;
+	height: 100vh;
+}
+
+.barra{
+	width: 6px;
+    height: 36px;
+	background-color: #fff;
+	left: -5px;
+    top: -25px;
+	border-radius: 1rem;
+}
+
+img {
+	width: 100%;
+}
+
+.lista-menu{
+	background: #FF1616;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-size: 25px;
+	border-radius: .7rem;
+	display: none;
+}
+
+.lista-menu a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.img-atractivos{
+	height: 350px;
+}
+
+.title-atractivos{
+	color: #1F7D3B;
+	background-color: #fff;
+	border-radius: .3rem;
+}
+
+.title-img-atractivos{
+	color: #fff;
+	background-color: #1F7D3B;
+	border-radius: .3rem;
+	bottom: -20px;
+    left: 24px;
+}
+
+.img-rutas{
+	height: 250px;
+}
+
+.title-rutas{
+	color: #FF1616;
+	background-color: #fff;
+	border-radius: .3rem;
+}
+
+
+
+.img-prestadores{
+	height: 250px;
+}
+
+.title-prestadores{
+	color: #0E9DE4;
+	background-color: #fff;
+	border-radius: .3rem;
+}
+
+
+
+/*** acerca de charter ***/
+.background-charter{
+	background-image: url('../img/Captura de Pantalla 2021-12-15 a la(s) 9.17.04 a.m..png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.background-atractivos{
+	background-image: url('../img/Patrones-indígenas-color-verde.jpg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.background-rutas{
+	background-color: #FF1616;
+}
+
+.background-prestadores{
+	background-image: url('../img/Patrones-indígenas-color-azul.jpg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.background-footer{
+	background-image: url('../img/Patrones-indígenas-color-rojo.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.title-correo-footer{
+	border: 2px solid #fff;
+	background-color: #FF1616;
+}
+
+/* Start Search */
+.buscador {
+	position: absolute;
+	left: 48%;
+	top: 45%;
+	transform: translate(-50%,-50%);
+	padding: 10px;
+}
+
+#input-search {
+	outline: none;
+	box-sizing: border-box;
+	height: 60px;
+	width: 0px;
+	padding: 0 20px;
+	color: #000;
+	border-radius: 50px;
+	font-size: 20px;
+	border: 1px solid #D50000;
+	transition: all .7s ease;
+}
+
+.btn-custom {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 80px;
+	height: 80px;
+	background: #D50000;
+	line-height: 80px;
+	border-radius: 50%;
+	text-align: center;
+	cursor: pointer;
+	transition: .5s;
+}
+
+.buscador:hover #input-search {
+	width: 350px;
+}
+
+.btn-custom:hover{
+	background: #cc0000;
+}
+/* End Search */
+
+#selectIdiomas{
+	cursor: pointer;
+}
+
+.custom-btn{
+	background-color: #FF1616;
+	color: #fff;
+	border-radius: .2rem;
+	border: 2px solid #FF1616;
+}
+
+.dropdown li, .dropdown ul, .dropdown a  {
+	background-color: #FF1616;
+	color: #fff;
+}
+
+.dropdown a:hover{
+	color: #FF1616;
+}
+
+.custom-btn::after{
+	font-size: 3rem;
+	vertical-align: 0.1rem !important;
+}
+
+.custom-btn-2{
+	background-color: #FF1616;
+	color: #fff;
+	border-radius: .2rem;
+	border: 2px solid #FF1616;
+}
+
+.custom-btn-2::after {
+    font-size: 3rem;
+    vertical-align: -.3rem !important;
+}
+
+.title-img-rutas{
+	color: #FF1616;
+	background-color: #fff;
+	border-radius: .3rem;
+	bottom: -30px;
+    left: 25px;
+}
+
+.title-img-prestadores{
+	color: #0E9DE4;
+	background-color: #fff;
+	border-radius: .3rem;
+	bottom: -7px;
+    left: 25px;
+}
+
+.custom-toggler .navbar-toggler-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+
+.custom-toggler.navbar-toggler {
+	border-color: rgba(255,255,255,0.7) !important;
+	font-size: .9rem !important;
+	padding: 0 !important;
+}
+
+#lista-menu-mobile{
+	display: inline-block !important;
+	background-color: #FF1616 !important;
+	color: #fff !important;
+}
+
+@media (min-width:768px){
+	.title-img-prestadores{
+		left: 50px;
+	}
+	.title-img-rutas{
+		bottom: -35px;
+		left: 50px;
+	}
+	.icono-mundo-nav-bar{
+		width: 43px;
+	}
+	.custom-toggler.navbar-toggler {
+		border-color: rgba(255,255,255,0.7) !important;
+		padding: 0.25rem 0.75rem !important;
+		font-size: 1.25rem !important;
+	}
+	
+	
+}
+
+@media (min-width:960px){
+	.title-img-prestadores{
+		left: 12px;
+	}
+	.title-img-rutas{
+		left: 12px;
+	}
+	.lista-menu{
+		display: block;
+	}
+	#lista-menu-mobile{
+		display: none !important;
+	}
+}
+
